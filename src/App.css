@@ -1,24 +1,164 @@
 .App {
-  text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+
+header{
+    margin: 0;
+    background-color: #F0932B;
+    height: 100%; 
+    width: 100%;
+    
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+header img{
+    position: relative;
+    margin-top: 10px;
+    
 }
 
-.App-intro {
-  font-size: large;
+nav{
+    color: #F0932B;
+    background: transparent;
+    height: 100%;
+    float: right;
+    
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88.5vh;
+    width: 100%;
+    margin: 0;
+    color: #F0932B;
+    background-color: #130F40;
+    text-align: center;
+}
+
+.intro img{
+    margin-left: 16%;
+}
+
+.textIntro{
+    margin-right: 10%;
+}
+
+.intro h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 150px;    
+}
+
+.intro h2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.intro p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.intro button{
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: #F0932B
+}
+
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    color: #F0932B;
+    text-align: center;
+}
+
+.slide{
+    width: 50vw;
+}
+
+.description{
+    text-align: center;
+}
+
+.description h1{
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.description p{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-family: 'Lato', sans-serif;
+}
+
+.Parcerias{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.Parcerias > h2{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+    background-color: rgba(247, 203, 28, 0.89);
+    height: 8%;
+    
+    color: #130F40;
+    font-family: 'Lato', sans-serif;
+}
+
+.resumo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    height: 60vh;
+}
+
+.resumo #container{
+    display: block;
+    margin-top: 10%;
+    width: 25%;
+    height: 100%;
+    border-radius: 8px;
+    background: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+
+
+#container:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ 
+#separate{
+    height:60%;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
 }
