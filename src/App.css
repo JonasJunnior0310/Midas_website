@@ -35,7 +35,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 88.5vh;
+    height: 90vh;
     width: 100%;
     margin: 0;
     color: #F0932B;
@@ -73,11 +73,17 @@ nav{
     width: 100%;
 }
 
-.intro button{
+#downbtn{
     text-align: center;
     background: transparent;
     border: none;
-    color: #F0932B
+    color: #F0932B;
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
 .About{
@@ -87,7 +93,7 @@ nav{
     height: 100vh;
     width: 100%;
     margin: 0 auto;
-    color: #F0932B;
+    color: #130F40;
     text-align: center;
 }
 
@@ -116,6 +122,7 @@ nav{
     width: 100%;
     height: 100vh;
     background-color: white;
+    text-align: center;
 }
 
 .Parcerias > h2{
@@ -178,8 +185,81 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     text-align: center;
     padding-top: 2%;
     background-color: #F0932B;
-    height: 8%;
+    height: 8vh;
     
     color: #130F40;
     font-family: 'Lato', sans-serif;
+}
+
+.Equipe #container_t{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 87vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.Equipe #imgs_1 {
+    float: left;
+    text-align: center;
+    padding-left: 1%;
+    padding-top: 6%;
+    width: 15%;
+}
+
+.Equipe #imgs {
+    float: left;
+    text-align: center;
+    padding-left: 1%;
+    width: 15%;
+}
+
+.Equipe #imgs p, .Equipe #imgs_1 p{
+    color: #F0932B;
+}
+
+.Equipe #imgs h4, .Equipe #imgs_1 h4{
+    color: #F0932B;
+    margin-bottom: -10px; 
+}
+
+.Contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    color: #130F40;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.chamada{
+    text-align: center;
+}
+
+.chamada h1{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.chamada p{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.chamada a{
+    text-decoration: none;
+    color: #130F40;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    background-color: #F0932B;
+    text-align: center;
 }
