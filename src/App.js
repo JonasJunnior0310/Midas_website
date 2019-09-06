@@ -18,6 +18,7 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './App.css';
+import { Grid } from '@material-ui/core';
 
 const MenuButton = withStyles(theme => ({
     root: {
@@ -42,7 +43,7 @@ class NavButtons extends Component {
   }
 }
 
-const imgs = [dapis, moocup, marcabola]
+const imgs = []
 
 class App extends Component {
   render() {    
@@ -127,10 +128,15 @@ class App extends Component {
                         </div>
                         <h2 style={{color : "#00B142"}}>Marcabola</h2>
                         <h3>Marcação sem falta e preocupação.</h3>
-                        <p>Marcar uma bola de maneira rápida e cômoda? Utilize nosso aplicativo e chame a galera.</p>
+                        <p>Marcar uma bola de maneira rápida e cômoda? Use nosso aplicativo e chame a galera.</p>
                     </div>
                 </div>
             </div>
+            <div className="Equipe">
+                <h2>Equipe</h2>
+                    
+            </div>
+            
       </div>
     ); 
   }
