@@ -72,7 +72,7 @@ class App extends Component {
             cargos_2: ["Gerente de Projetos", "Designer",
             "Cientista de Dados", "Desenvolvedor", "Desenvolvedor", "Desenvolvedor"],
             nomes_1 : ["Amaury Magalhães", "Daniel Souza", "Anne Gonçalves", "Andressa Pinho", "Sérgio Murillo", "Mayana Pontes"],
-            nomes_2 : ["Caio Vinícius", "Isabelle Magalhães", "Matheus Rodrigues", "Jonas Paiva", "Bruno De Masi", "Paulo Amador"]
+            nomes_2 : ["Caio Vinícius", "Isabella Magalhães", "Matheus Rodrigues", "Jonas Paiva", "Bruno De Masi", "Paulo Amador"]
         }
         
         this.AboutFocus = React.createRef()
@@ -173,7 +173,7 @@ class App extends Component {
                         <h1>Ideias para o mundo</h1>
                         <p>
                             Nossa proposta é facilitar a comunicação entre uma ideia e o mercado 
-                            através de marketing, desenvolvimento e empreendedorismo, para que ideias não sejam so ideias 
+                            através de marketing, desenvolvimento e empreendedorismo, para que ideias não sejam só ideias 
                             e ajudem o mundo de maneira real.
                         </p>
                         <p style={{fontSize: 20 + "px", marginTop: 100}}>Projetos e Parcerias</p>
@@ -190,7 +190,7 @@ class App extends Component {
                                 <img alt="" src={dapis} style={{width: 180 + "px", borderRadius: 100, marginTop: 5 + "px"}}></img>
                             </div>
                             <h2 style={{color: "#AB19CF"}}>DAPIS</h2>
-                            <h3>Satifação sem filas.</h3>
+                            <h3>Satisfação sem filas.</h3>
                             <p>Faça reservas em restaurantes pelo nosso aplicativo e não encare mais filas</p>
                         </div>
                         <div id="container">

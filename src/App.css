@@ -13,8 +13,7 @@ header{
     margin: 0;
     background-color: #F0932B;
     height: 100%; 
-    width: 100%;
-    
+    width: 100%;    
 }
 
 header img{
@@ -41,6 +40,7 @@ nav{
     color: #F0932B;
     background-color: #130F40;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .intro img{
@@ -95,6 +95,7 @@ nav{
     margin: 0 auto;
     color: #130F40;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .slide{
@@ -123,6 +124,7 @@ nav{
     height: 100vh;
     background-color: white;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .Parcerias > h2{
@@ -178,6 +180,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     width: 100%;
     height: 100vh;
     background-color: #130F40;
+    overflow-y: hidden;
 }
 
 .Equipe > h2{
