@@ -86,6 +86,10 @@ nav{
     100% { transform: translateY(-10px); }
 }
 
+#downbtn:hover{
+    color: #F0932B;
+}
+
 .About{
     display: flex;
     align-items: center;
